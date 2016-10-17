@@ -1,0 +1,39 @@
+{
+  "name": "osm2vectortiles-https-proxy",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Proxy to make osm2vectortiles URIs secure.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesstelford/osm2vectortiles-https-proxy.git"
+  },
+  "author": "Jess Telford <hi@jes.st>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jesstelford/osm2vectortiles-https-proxy/issues"
+  },
+  "homepage": "https://github.com/jesstelford/osm2vectortiles-https-proxy#readme",
+  "devDependencies": {
+    "eslint": "^3.2.2",
+    "eslint-config-airbnb": "^10.0.0",
+    "eslint-plugin-import": "^1.12.0",
+    "eslint-plugin-jsx-a11y": "^2.0.1",
+    "eslint-plugin-react": "^6.2.0"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-0"
+    ],
+    "plugins": [
+      "transform-object-rest-spread"
+    ]
+  }
+}
